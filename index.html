@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>SoCal Custom Rustics</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+	</head>
+	<body>
+
+		<header class="hero">
+			<div class="container spacing">
+				<img src="/images/SCCR2x.png" alt="" class="hero_logo">
+				<h1 class="primary-title">Home to Southern California's Handmade Rustics.</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, nostrum illum quidem at cupiditate ullam similique tenetur eum nihil dicta hic veritatis reprehenderit eos, possimus voluptatem itaque, tempore recusandae nobis.</p>
+				<a href="#" class="btn">See more</a>
+			</div>
+		</header>
+
+		<main>
+			<section class="featured">
+				<div class="container spacing">
+					<h2 class="section-title">Latest creations</h2>
+					<div class="split">
+						<a href="#" class="featured_item">
+							<img src="./images/product_01.png" alt="" class="featured_img">
+							<p class="featured_details"><span class="price">$399</span>Item Name</p>
+						</a>
+						<a href="#" class="featured_item">
+							<img src="./images/product_02.png" alt="" class="featured_img">
+							<p class="featured_details"><span class="price">$399</span>Item Name</p>
+						</a>
+						<a href="#" class="featured_item">
+							<img src="./images/product_03.png" alt="" class="featured_img">
+							<p class="featured_details"><span class="price">$399</span>Item Name</p>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="products">
+				<div class="container">
+					<h2 class="section-title">Products</h2>
+
+					<article class="product cooler-1 spacing">
+						<img src="./images/product_03.png" alt="" class="product_img">
+						<h3 class="product_title">Prodct Title 1</h3>
+						<p class="product_desc"><span class="price">$399</span> Here comes the description of what it is and such</p>
+					</article>
+
+					<article class="product cooler-2 spacing">
+						<img src="./images/product_02.png" alt="" class="product_img">
+						<h3 class="product_title">Prodct Title 2</h3>
+						<p class="product_desc"><span class="price">$399</span> Here comes the description of what it is and such</p>
+					</article>
+
+					<article class="product cooler-3 spacing">
+						<img src="./images/product_04.png" alt="" class="product_img">
+						<h3 class="product_title">Prodct Title 3</h3>
+						<p class="product_desc"><span class="price">$399</span> Here comes the description of what it is and such</p>
+					</article>
+
+				</div>
+			</section>
+		</main>
+
+		<div class="contactbg">
+			<div class="container contact">
+				<div class="wrapper">
+					<div class="company-info">
+						<div class="logo-small"><img src="/images/SCCR.png" alt="Logo Small"></div>
+
+						<h3>SoCal Custom Rustics</h3>
+						<ul>
+							<li><i class="fas fa-road"></i> 333 Bouvier Ct</li>
+							<li><i class="fas fa-phone"></i> 592-429-4231</li>
+							<li><i class="fas fa-at"></i> email@email.com</li>
+						</ul>
+					</div>
+
+					<div class="contact">
+						<h3>Contact Us</h3>
+						<form class="form" id="contactform">
+							
+							<p class="form-control">
+								<label>Name</label>
+								<input type="text" name="name" id="name" placeholder="John Smith">
+								<i class="fas fa-check-circle"></i>
+								<i class="fas fa-exclamation-circle"></i>
+								<small>We need your name!</small>
+							</p>
+							<p class="form-control">
+								<label>Company</label>
+								<input type="text" name="company" id="company" placeholder="Smith LLC">
+								<i class="fas fa-check-circle"></i>
+								<i class="fas fa-exclamation-circle"></i>
+								<small>We need your company!</small>
+
+							</p>
+							<p class="form-control">
+								<label>E-mail Address</label>
+								<input type="email" name="email" id="email" placeholder="john@smith.com">
+								<i class="fas fa-check-circle"></i>
+								<i class="fas fa-exclamation-circle"></i>
+								<small>We need your e-mail!</small>
+
+							</p>
+							<p class="form-control">
+								<label>Phone Number</label>
+								<input type="text" name="phone" id="phone" placeholder="(777) 654-1231">
+								<i class="fas fa-check-circle"></i>
+								<i class="fas fa-exclamation-circle"></i>
+								<small>We need your phone number!</small>
+
+							</p>
+							<p class="full form-control">
+								<label>Your Message</label>
+								<textarea name="name" rows="5" id="message"> </textarea>
+								<i class="fas fa-check-circle"></i>
+								<i class="fas fa-exclamation-circle"></i>
+								<small>We need your message!</small>
+							</p>
+
+							<p class="full"><button class="btn" type="submit">Submit</button></p>
+						</form>
+					</div>
+				</div>
+			</div>
+
+				<footer>
+					<div>
+						<h4>SoCal Custom Rustics 2020</h4>
+					</div>
+				</footer>
+
+		</div>	
+
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+		<script src="/__/firebase/7.19.1/firebase-database.js"></script>
+		<script src="/__/firebase/init.js"></script>
+
+<script>// Your web app's Firebase configuration
+	var firebaseConfig = {
+		apiKey: "AIzaSyBvTL7XYvYTUx3C41q1zrbjl3VzxTv4Z7M",
+		authDomain: "contactformsocalrustics.firebaseapp.com",
+		databaseURL: "https://contactformsocalrustics.firebaseio.com",
+		projectId: "contactformsocalrustics",
+		storageBucket: "contactformsocalrustics.appspot.com",
+		messagingSenderId: "256188191832",
+		appId: "1:256188191832:web:0e05eb9a8c73e0d633662d",
+		measurementId: "G-3W1FE2K2R3"
+	};
+	// Initialize Firebase
+	firebase.initializeApp(firebaseConfig);
+	firebase.analytics();</script>
+
+		<script src="./js/contactform.js"></script>
+	</body>
+</html>
